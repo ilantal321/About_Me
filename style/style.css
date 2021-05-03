@@ -1,0 +1,232 @@
+body
+{
+    background-image: url(pic/background.jpg);
+    background-attachment: fixed;
+    margin: 0 auto;
+    width: 85%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+table.dark, th.dark, td.dark
+{
+    border: 1px solid whitesmoke;
+    background-color:#222222;
+}
+table
+{
+    width: 100%;
+}
+h1,h2,h4,h3,h5,h6,p,a,th,td
+{
+    color: whitesmoke;
+}
+td
+{
+    text-align: center;
+    border: 1,4,1;
+}
+p
+{
+    font-size: 30px;
+}
+p.down
+{
+    color:chartreuse;
+    font-size: 16px;
+}
+a
+{
+    font-size: 28px;
+    text-decoration: none;
+}
+footer
+{
+    border-radius: 5px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    background-color: darkblue;
+    opacity: 0.4;
+    width: 100%;
+    text-align: center;
+}
+footer:hover
+{
+    opacity: 0.9;
+    transition: 1s;
+}
+h1.head
+{
+    text-shadow:  5px 5px 5px tan;
+    text-align: center;
+    margin-top: 45px;
+}
+ul
+{
+    border-radius: 10px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+}  
+li 
+{
+    border-radius: 50%;
+    float: left;
+}  
+li a 
+{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #999999;
+    transition: 1s;
+}
+li.heb
+{
+    border-radius: 50%;
+    float: right;
+}
+#active
+{
+    background-color: #555555;
+}
+img
+{
+    border:5px solid darkgoldenrod;
+    border-radius: 6px;
+    display: block;
+    width: 500px;
+    height: 300px;
+}
+img.cityimg
+{
+    width: 500px;
+    height: 300px;
+}
+img.familyimg
+{
+    width: 500px;
+    height: 300px;
+}
+img.familyimgmom
+{
+    width: 300px;
+    height: 300px;
+}
+img.gameimg
+{
+    opacity: 0.5;
+    width: 500px;
+    height: 300px;
+}
+img.schoolimg
+{
+    width: 500px;
+    height: 300px;
+}
+img.movieimg
+{
+    opacity: 0.5;
+    width: 500px;
+    height: 300px;
+}
+img.ilanimg
+{
+    width: 500px;
+    height: 300px; 
+}
+div.imgcenter
+{
+    display: flex;
+    justify-content: center;
+}
+img.tvimg
+{
+    opacity: 0.5;
+    width: 500px;
+    height: 300px; 
+}
+img:hover{
+    opacity: 1.0;
+    transition: 1s;
+}
+h3.subhead
+{
+    text-shadow:  5px 5px 6px gray;    
+    color:tan;
+}
+.tooltip
+{
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  .tooltip .tooltiptext
+{
+    visibility: hidden;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext
+{
+    visibility: visible;
+    transition: 1s;
+    opacity: 0.6;
+    width: 510px;
+    background-color: darkgoldenrod;
+}
+img.spinner1,img.spinner2,img.spinner3
+{
+    width: 300px;
+    height: 300px;
+    opacity: 0.7;
+    display: inline;
+    border: none;
+    border-radius: 50%;
+    transition: all 1.5s ease-in-out;
+}
+img.spinner1:hover
+{
+    opacity: 1;
+    transform: rotate(360deg);
+}
+img.spinner2:hover
+{
+    opacity: 1;
+    transform: rotatex(360deg);
+}
+img.spinner3:hover
+{
+    opacity: 1;
+    transform: rotatey(360deg);
+}
+p.ani
+{
+    opacity: 0.8;
+    font-size: 32px;
+}
+div.ani
+{
+    position:relative;
+    animation: headder 8s linear 2s infinite alternate;
+}
+  @keyframes headder
+{
+    0%   {background-color:none; left:0px; top:0px;}
+    20%  {background-color:none; left:1000px; top:75px;}
+    40%  {background-color:none; left:1000px; top:0px;}
+    60%  {background-color:none; left:500px; top:50px;}
+    80%  {background-color:none; left:1000px; top:25px;}
+    100% {background-color:none; left:0px; top:0px;}
+}
